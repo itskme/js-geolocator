@@ -3,14 +3,16 @@ body {
     text-align: center;
 }
 
-#map-container {
-    width: 800px;
+#map {
     height: 600px;
+    width: 800px;
     border: 1px solid black;
-    margin: 20px auto;
-}
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-#share-location-btn {
+#locate-btn {
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
@@ -19,6 +21,6 @@ body {
     cursor: pointer;
 }
 
-#share-location-btn:hover {
+#locate-btn:hover {
     background-color: #3e8e41;
 }
