@@ -1,24 +1,39 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 153, 0);
+    background-color: black;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: left;
+    line-height: 100px;
 }
 
 #map {
     height: 600px;
     width: 800px;
-    border: 1px solid black;
+    border: 4px solid #4CAF50;
+    border-radius: 2px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
 
 #locate-btn {
-    background-color: #4CAF50;
+    background-color: rgb(255, 153, 0);
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 60px;
+    margin-top: 30px;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
+    justify-content: right;
+    margin-left: 610px;
 }
 
 #locate-btn:hover {
