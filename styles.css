@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'bert';
+    src: url(bert.otf);
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'bert', Arial, sans-serif;
     text-align: center;
     max-width: 800px;
     margin-left: auto;
@@ -12,6 +17,9 @@ h1 {
     font-size: 100px;
     text-align: left;
     line-height: 100px;
+    padding: 0px;
+    padding-bottom: 30px;
+    margin: 0px;
 }
 
 #map {
@@ -29,8 +37,6 @@ h1 {
     color: #fff;
     padding: 10px 60px;
     margin-top: 30px;
-    border: none;
-    border-radius: 2px;
     cursor: pointer;
     justify-content: right;
     margin-left: 610px;
@@ -38,4 +44,8 @@ h1 {
 
 #locate-btn:hover {
     background-color: #3e8e41;
+}
+
+.bottoms {
+    text-align: end;
 }
